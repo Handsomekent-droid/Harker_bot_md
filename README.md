@@ -1,25 +1,63 @@
-# HARKER KENT MD TECH
+<h1 align="center">🦠Harker Kent md Tech</h1>
 
-A cool Whatsapp bot created by Kent to assist you with messaging on Whatsapp 
-
-💡 Features:
-- antilink 
-- bug menu coming soon
-- antigroupmention 
-- Organized categories
-- System tools and media commands
-- Beginner-friendly code for learning
-
-Feel free to use it also fork my repo
-
-🧠 Need to deploy the bot?
-👉 (https://github.com/Handsomekent-droid).
-
-👨‍💻 Bot Project by Kent
-🎥 Tutorials & Upgrades by **Harker md kent**
-🔗(https://github.com/Handsomekent-droid/Harker_bot_md
+<p align="center">
+  <a href="https://github.com/Handsomekent-droid/harker_bot_md">
+    <img src="https://img.shields.io/github/stars/Handsomekent-droid/Harker md tech?style=for-the-badge&color=gold&label=Stars" alt="Stars" />
+  </a>
+  <a href="https://github.com/Tennor-modz/trashcore-ultra/fork">
+    <img src="https://img.shields.io/github/forks/Handsomekent-droid/harker md bot?style=for-the-badge&color=007BFF&label=Forks" alt="Forks" />
+  </a>
+  
 
 
-💬 Telegram: [Text me](https://t.me/Hãñd§ømé~kíllér~prīmí§kéñt)
 
-> “Small daily progress builds big results.” – Harker Kent md tech 
+
+
+
+
+
+
+
+
+
+
+
+
+<a href='https://www.Harker kent md tech.id' target="_blank">
+  <img alt='Deploy' src='https://img.shields.io/badge/deploy%20bot%20now-darkpink?style=for-the-badge&logo=opencv&logoColor=red'/>
+</a>
+<br> 
+
+
+
+
+
+  
+---
+### 📦 About Harker Kent md tech Bot
+
+**Trashcore** is a feature-rich **WhatsApp bot** powered by [Baileys](https://github.com/WhiskeySockets/Baileys).
+It includes **anti-features**, **auto responses**, **session or pairing-based login**, and easy redeployment support.  
+Perfect for developers and enthusiasts who want a **stable, powerful, and customizable bot**.
+
+---
+
+### 🦠 Features
+
+| Category | Description |
+|-----------|-------------|
+| 💬 Messaging | Smart replies, menus, media sending |
+| 🔗 Security | Antilink, Antidemote, Antipromote |
+| ⚙️ Automation | Auto-typing, Auto-record, Auto-like |
+| 🔄 Update | `.update` command for live repo sync |
+| 💾 Session | Pairing & persistent session support |
+| ☁️ Deploy Ready | Supports Heroku & Panel hosting |
+| 🦠Bug menu| coming soon|
+
+--
+---
+
+### 🧩 Configuration Variables
+
+| Variable | Description |
+|-----------|-------------|
