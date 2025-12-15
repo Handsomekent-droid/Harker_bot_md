@@ -1,14 +1,14 @@
 
-// 漏 2025 Debraj. All Rights Reserved.
-// respect the work, don鈥檛 just copy-paste.
+// 漏 2025 Kent 🦠. All Rights Reserved.
+// respect the work, 🚫 don't copy for your safety🦠.
 
 const fs = require('fs')
 
 const config = {
-    owner: "-",
-    botNumber: "-",
+    owner: "🦠KENT🦠",
+    botNumber: "254792770219",
     setPair: "K0MRAID1",
-    thumbUrl: "https://i.imgur.com/IkEv97P.jpeg",
+    thumbUrl: "https://files.catbox.moe/z6v20i.jpg",
     session: "sessions",
     status: {
         public: true,
@@ -28,23 +28,23 @@ const config = {
         wait: 'Please wait...'
     },
     settings: {
-        title: "Simple WA Base Bot",
-        packname: 'WA-BASE',
-        description: "this script was created by Debraj",
-        author: 'https://www.github.com/OfficialKango',
-        footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: @official_kango"
+        title: "harker🦠🚫",
+        packname: 'prime killer 🦠',
+        description: "we bug🦠 we don't wanna be bugged 🦠",
+        author: 'https://www.github.com/Handsomekent-droid',
+        footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: Handsomekent-droid"
     },
     newsletter: {
-        name: "Simple WA Base Bot",
+        name: "prime killer",
         id: "0@newsletter"
     },
     api: {
-        baseurl: "https://hector-api.vercel.app/",
-        apikey: "hector"
+        baseurl: "https://files.catbox.moe/z6v20i.jpg/",
+        apikey: "🦠 Kent 🦠"
     },
     sticker: {
-        packname: "Simple WA Base Bot",
-        author: "WA-BASE"
+        packname: "prime killer md",
+        author: "🦠 kent 🦠"
     }
 }
 
