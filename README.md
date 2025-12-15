@@ -2,10 +2,10 @@
 
 <p align="center">
   <a href="https://github.com/Handsomekent-droid/harker_bot_md">
-    <img src="https://img.shields.io/github/stars/Handsomekent-droid/Harker md tech?style=for-the-badge&color=gold&label=Stars" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/Handsomekent-droid/Harker_bot_md?style=for-the-badge&color=gold&label=Stars" alt="Stars" />
   </a>
   <a href="https://github.com/Tennor-modz/trashcore-ultra/fork">
-    <img src="https://img.shields.io/github/forks/Handsomekent-droid/harker md bot?style=for-the-badge&color=007BFF&label=Forks" alt="Forks" />
+    <img src="https://img.shields.io/github/forks/Handsomekent-droid/harker_bot_md?style=for-the-badge&color=007BFF&label=Forks" alt="Forks" />
   </a>
   
 
