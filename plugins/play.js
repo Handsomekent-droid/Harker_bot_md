@@ -103,10 +103,10 @@ module.exports = {
                 contextInfo: {
                     mentionedJid: [sender],
                     externalAdReply: {
-                        title: "🎧 Queen Riam Music",
+                        title: "🎧 harker md Music",
                         body: "Click here for more music!",
                         thumbnailUrl: video.thumbnail,
-                        sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+                        sourceUrl: "https://https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P",
                         mediaType: 1
                     }
                 }
