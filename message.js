@@ -30,12 +30,12 @@ class PluginLoader {
         this.categories = new Map();
         this.pluginsDir = path.join(__dirname, 'plugins');
         this.defaultCategories = {
-            'ai': '🤖 AI MENU',
+            'ai': '🐞 AI MENU',
             'downloader': '📥 DOWNLOAD MENU',
             'fun': '🎮 FUN MENU',
             'general': '⚡ GENERAL MENU',
             'group': '👥 GROUP MENU',
-            'owner': '👑 OWNER MENU',
+            'owner': '🦠 OWNER MENU',
             'other': '📦 OTHER MENU',
             'tools': '🛠️ TOOLS MENU',
             'video': '🎬 VIDEO MENU'
@@ -97,7 +97,7 @@ class PluginLoader {
 
             console.log(chalk.cyan(`📦 Loaded ${this.plugins.size} plugins across ${this.categories.size} categories`));
         } catch (error) {
-            console.log(chalk.red('❌ Error loading plugins:', error.message));
+            console.log(chalk.red('🚫 Error loading plugins:', error.message));
         }
     }
 
@@ -330,10 +330,10 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
 
                 const K0MRAID = `
 ╔〘 *🦠Harker Kent md🦠* 
-║ 👑 *Owner:* KENT 🦠
-║ 🧩 *Prefix:* [ . ]
-║ 🖥️ *Host:* ${host}
-║ 🧠 *Commands:* ${totalCommands}
+║ 🐞 *Owner:* KENT 🦠
+║ ❄️ *Prefix:* [ . ]
+║ 🌐 *Host:* ${host}
+║ 👾 *Commands:* ${totalCommands}
 ║ ⚙️ *Mode:* ${mode}
 ║ ⏱️ *Uptime:* ${uptime}
 ║ ⚡ *Ping:* ${ping.toFixed(0)} ms
@@ -351,12 +351,12 @@ ${pluginMenuSections}`;
                         forwardingScore: 1,
                         isForwarded: false,
                         externalAdReply: {
-                            title: "Simple WA Base Bot",
-                            body: "Official Dev Account URL",
+                            title: "Prime killer kent md",
+                            body: "Official KENT ACCOUNT",
                             mediaType: 3,
                             thumbnailUrl: config.thumbUrl,
-                            mediaUrl: "https://t.me/debrajzero",
-                            sourceUrl: "https://t.me/debrajzero",
+                            mediaUrl: "https://t.me/Hãñd§ømé~kíllér~prīmí§kéñt",
+                            sourceUrl: "https://t.me/Hãñd§ømé~kíllér~prīmí§kéñt",
                             showAdAttribution: true,
                             renderLargerThumbnail: false
                         }
@@ -387,4 +387,5 @@ require('fs').watchFile(file, () => {
     require(file);
 
 });
+
 
