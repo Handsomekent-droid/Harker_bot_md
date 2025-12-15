@@ -29,7 +29,7 @@ module.exports = {
     }) => {
         try {
             if (!text) {
-                return await reply(`🎧 *QUEEN RIAM MUSIC*\n\n┌─❖\n│ ✦ Need a song name!\n│ ✦ Example: ${prefix}play faded alan walker\n└───────────────◉\n\n🎶 Your personal music downloader`);
+                return await reply(`🎧 *HARKER MD MUSIC*\n\n┌─❖\n│ ✦ Need a song name!\n│ ✦ Example: ${prefix}play faded alan walker\n└───────────────◉\n\n🎶 Your personal music downloader`);
             }
 
             // Initial reaction - music note
