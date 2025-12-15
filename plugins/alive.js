@@ -11,7 +11,7 @@ function runtime(seconds) {
 }
 
 module.exports = {
-    command: 'alive',
+    command: 'alive1',
     description: 'Check system status and bot info',
     category: 'general',
     execute: async (sock, m, {
@@ -55,7 +55,7 @@ module.exports = {
 `🤖 *${config.settings.title} - SYSTEM STATUS*
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-👤 **USER**: ${userName}
+🐞 **USER**: ${userName}
 ⏱️ **UPTIME**: ${botUptime}
 💾 **MEMORY**: ${usedMemory}MB / ${totalMemory}GB
 📶 **PING**: ${ping}ms
@@ -68,7 +68,7 @@ module.exports = {
 💬 **DESCRIPTION**: ${config.settings.description}
 
 🔗 **OFFICIAL CHANNEL**:
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P
 
 ${config.settings.footer}`;
 
@@ -81,7 +81,7 @@ ${config.settings.footer}`;
                         title: `🤖 ${config.settings.title}`,
                         body: "System Online & Operational",
                         thumbnailUrl: config.thumbUrl,
-                        sourceUrl: "https://www.github.com/OfficialKango",
+                        sourceUrl: "https://www.github.com/Handsomekent-droid",
                         mediaType: 1
                     }
                 }
