@@ -136,7 +136,7 @@ const clientstart = async() => {
         const { connection, lastDisconnect, qr } = update;
         
         if (connection === 'connecting') {
-            console.log(chalk.yellow('🔄 Connecting to WhatsApp...'));
+            console.log(chalk.red('🐞 Connecting to WhatsApp...'));
         }
         
         if (connection === 'open') {
@@ -148,12 +148,12 @@ const clientstart = async() => {
                 text:
                     `🦠 *${config().settings.title}* is Online!\n\n` +
                     `> 📌 User: ${sock.user.name || 'Unknown'}\n` +
-                    `> ⚡ Prefix: [ . ]\n` +
-                    `> 🚀 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
+                    `> 🐞 Prefix: [ . ]\n` +
+                    `> 🌐 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
                     `> 🤖 Version: 1.0.0\n` +
-                    `> 👑 Owner: KENT\n\n` +
+                    `> 🦠 Owner: KENT\n\n` +
                     `✅ Bot connected successfully\n` +
-                    `📢 Join our channel:_`,
+                    `📢 Join our channel:https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
@@ -184,7 +184,7 @@ const clientstart = async() => {
         }
         
         if (qr) {
-            console.log(chalk.blue('📱 Scan the QR code above to connect.'));
+            console.log(chalk.yellow('📱 Scan the QR code above to connect.'));
         }
         
         const { konek } = require('./library/connection/connection');
@@ -463,3 +463,4 @@ process.stderr.write = function (msg, encoding, fd) {
     originalStderrWrite.apply(process.stderr, arguments);
 
 };
+
