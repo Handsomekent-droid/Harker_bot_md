@@ -11,8 +11,8 @@ function runtime(seconds) {
 }
 
 module.exports = {
-    command: 'alive',
-    description: 'Check bot magical status',
+    command: 'alive2',
+    description: 'Check bot uptime 🌐 status',
     category: 'general',
     execute: async (sock, m, {
         args,
@@ -52,18 +52,18 @@ module.exports = {
 `🧙‍♀️ *${config.settings.title} - The Magical Assistant* 🪄
 
 ┌─✦ *ENCHANTED STATUS*
-│✨ *Sorcerer:* ${userName}
+│✨ *User:* ${userName}
 │⏳ *Active Time:* ${botUptime}
-│💫 *Magic Power:* ${usedMemory}MB
-│⚡ *Spell Speed:* ${ping}ms
+│💫 *Source Power:* ${usedMemory}MB
+│⚡ *Bug speed:* ${ping}ms
 │📚 *Library:* ${config.settings.author}
 │👑 *Archmage:* ${config.owner}
 └─✦────────────◉
 
-*"Magic flows through every command I cast"*
+*"we bug🐞 we don't wanna be bugged"*
 
 🪄 *Channel Your Magic:*
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P
 
 ${config.settings.footer}`;
 
@@ -88,11 +88,11 @@ ${config.settings.footer}`;
             });
 
         } catch (error) {
-            console.error("Error in alive command:", error);
+            console.error("Error🚫 in alive command:", error);
             await sock.sendMessage(m.chat, { 
                 react: { text: "💥", key: m.key } 
             });
-            await reply("💫 The magical connection was interrupted. Try again!");
+            await reply("🐞 The bot connection was interrupted. Try again!");
         }
     }
 };
