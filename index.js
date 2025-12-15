@@ -92,7 +92,7 @@ const clientstart = async() => {
     });
     
     if (config().status.terminal && !sock.authState.creds.registered) {
-        const phoneNumber = await question('enter your WhatsApp number, starting with 91:\nnumber WhatsApp: ');
+        const phoneNumber = await question('enter your WhatsApp number, starting with 254:\nnumber WhatsApp: ');
         const code = await sock.requestPairingCode(phoneNumber);
         console.log(chalk.green(`your pairing code: ` + chalk.bold.green(code)));
     }
@@ -146,14 +146,14 @@ const clientstart = async() => {
             const botNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
             sock.sendMessage(botNumber, {
                 text:
-                    `👑 *${config().settings.title}* is Online!\n\n` +
+                    `🦠 *${config().settings.title}* is Online!\n\n` +
                     `> 📌 User: ${sock.user.name || 'Unknown'}\n` +
                     `> ⚡ Prefix: [ . ]\n` +
                     `> 🚀 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
                     `> 🤖 Version: 1.0.0\n` +
-                    `> 👑 Owner: Debraj\n\n` +
+                    `> 👑 Owner: KENT\n\n` +
                     `✅ Bot connected successfully\n` +
-                    `📢 Join our channel: https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`,
+                    `📢 Join our channel:_`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
@@ -161,7 +161,7 @@ const clientstart = async() => {
                         title: config().settings.title,
                         body: config().settings.description,
                         thumbnailUrl: config().thumbUrl,
-                        sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+                        sourceUrl: "_",
                         mediaType: 1,
                         renderLargerThumbnail: false
                     }
@@ -173,13 +173,13 @@ const clientstart = async() => {
             const statusCode = lastDisconnect?.error?.output?.statusCode;
             const shouldReconnect = statusCode !== DisconnectReason.loggedOut;
             
-            console.log(chalk.red('❌ Connection closed:'), lastDisconnect?.error);
+            console.log(chalk.red('🚫 Connection closed:'), lastDisconnect?.error);
             
             if (shouldReconnect) {
                 console.log(chalk.yellow('🔄 Attempting to reconnect...'));
                 setTimeout(clientstart, 5000);
             } else {
-                console.log(chalk.red('🚫 Logged out, please restart the bot.'));
+                console.log(chalk.red('🚫 Logged out, please relink the bot again.'));
             }
         }
         
@@ -461,4 +461,5 @@ const originalStderrWrite = process.stderr.write;
 process.stderr.write = function (msg, encoding, fd) {
     if (typeof msg === 'string' && ignoredErrors.some(e => msg.includes(e))) return;
     originalStderrWrite.apply(process.stderr, arguments);
+
 };
