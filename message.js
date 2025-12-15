@@ -329,8 +329,8 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
                 const totalCommands = pluginLoader.getPluginCount();
 
                 const K0MRAID = `
-╔〘 *Harker Kent md* 
-║ 👑 *Owner:* KENT 
+╔〘 *🦠Harker Kent md🦠* 
+║ 👑 *Owner:* KENT 🦠
 ║ 🧩 *Prefix:* [ . ]
 ║ 🖥️ *Host:* ${host}
 ║ 🧠 *Commands:* ${totalCommands}
@@ -387,3 +387,4 @@ require('fs').watchFile(file, () => {
     require(file);
 
 });
+
