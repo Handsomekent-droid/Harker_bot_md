@@ -1,13 +1,13 @@
 {
-    "name": "WA-BASE-BOT",
+    "name": "🦠Harker md Bot",
     "version": "1.2",
-    "description": "A Simple Whatsapp Bot",
+    "description": "prime kent🦠md",
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
         "start": "node index.js"
     },
-    "author": "Debraj",
+    "author": "🦠KENT🦠",
     "license": "MIT",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
