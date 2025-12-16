@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const fetch = require('node-fetch');
+const config = require("../settings/config");
+const os = require("os");
+
 
 const USER_GROUP_DATA = path.join(__dirname, '../data/userGroupData.json');
 
@@ -9,6 +9,35 @@ const chatMemory = {
     messages: new Map(), // Stores last 5 messages per user
     userInfo: new Map()  // Stores user information
 };
+}
+
+module.exports = {
+    command: 'ai',
+    description: 'harker ai ',
+    category: 'general',
+    execute: async (sock, m, {
+        args,
+        text,
+        q,
+        quoted,
+        mime,
+        qmsg,
+        isMedia,
+        groupMetadata,
+        groupName,
+        participants,
+        groupOwner,
+        groupAdmins,
+        isBotAdmins,
+        isAdmins,
+        isGroupOwner,
+        isCreator,
+        prefix,
+        reply,
+        config: cmdConfig,
+        sender
+    }) => {
+        try {
 
 // Load user group data
 function loadUserGroupData() {
