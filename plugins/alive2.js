@@ -50,12 +50,12 @@ module.exports = {
             const ping = Date.now() - m.messageTimestamp * 1000;
 
             const aliveMessage = 
-`✨ *${config.settings.title} is Watching Over You* ✨
+`✨ *${config.settings.title} KEEP IN MIND AM WATCHING YOU* ✨
 
 ╔═══════════════════
-║  🏰 *ROYAL STATUS*
+║  🏰 *PRIME HARKER MD STATUS*
 ╠═══════════════════
-║ ♕ *User:* ${userName}
+║ 🌐 *User:* ${userName}
 ║ ⏳ *Uptime:* ${botUptime}
 ║ 💾 *Memory:* ${usedMemory}MB / ${totalMemory}GB
 ║ ⚡ *Speed:* ${ping}ms
@@ -63,13 +63,12 @@ module.exports = {
 ║ 📜 *Creator:* ${config.owner}
 ╚═══════════════════
 
-*"A queen never sleeps, and neither do I"*
+*"AM AN EXECUTOR I DON'T SLEEP I KEEP WATCH AND KILL POOR RUDE SOLES"*
 
 👑 Serving the kingdom since deployment
 📜 Developed by: ${config.settings.author}
 
-🎭 *Join the Royal Court:*
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`;
+🎭 *Join the Royal Court:*https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P`;
 
             await sock.sendMessage(m.chat, {
                 image: { url: config.thumbUrl },
@@ -77,10 +76,10 @@ https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`;
                 contextInfo: {
                     mentionedJid: [m.sender],
                     externalAdReply: {
-                        title: `👑 ${config.settings.title} - Royal Bot`,
+                        title: `🦠 ${config.settings.title} - Executive harkers`,
                         body: config.settings.description,
                         thumbnailUrl: config.thumbUrl,
-                        sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+                        sourceUrl: "https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P",
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
