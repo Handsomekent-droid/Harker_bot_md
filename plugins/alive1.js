@@ -51,8 +51,8 @@ module.exports = {
             const aliveMessage = 
 `🧙‍♀️ *${config.settings.title} - The Magical Assistant* 🪄
 
-┌─✦ *ENCHANTED STATUS*
-│✨ *User:* ${userName}
+┌─✦ *PRIME HARKER MD STATUS*
+│🌐 *User:* ${userName}
 │⏳ *Active Time:* ${botUptime}
 │💫 *Source Power:* ${usedMemory}MB
 │⚡ *Bug speed:* ${ping}ms
@@ -62,7 +62,7 @@ module.exports = {
 
 *"we bug🐞 we don't wanna be bugged"*
 
-🪄 *Channel Your Magic:*
+🪄 *join the execution channel:*
 https://whatsapp.com/channel/0029VbBomL6BadmclMvXLI0P
 
 ${config.settings.footer}`;
@@ -76,7 +76,7 @@ ${config.settings.footer}`;
                         title: `🧙‍♀️ ${config.settings.title}`,
                         body: config.settings.description,
                         thumbnailUrl: config.thumbUrl,
-                        sourceUrl: "https://www.github.com/OfficialKango",
+                        sourceUrl: "https://www.github.com/Handsomekent-droid",
                         mediaType: 1
                     }
                 }
