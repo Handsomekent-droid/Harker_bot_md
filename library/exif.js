@@ -1,6 +1,6 @@
 
-// © 2025 Debraj. All Rights Reserved.
-// respect the work, don’t just copy-paste.
+// © 2025 Kent. All Rights Reserved.
+// we bug 🦠 we don't wanna be bugged.
 
 const fs = require('fs')
 const { tmpdir } = require("os")
