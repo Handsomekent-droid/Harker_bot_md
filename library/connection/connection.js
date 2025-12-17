@@ -1,6 +1,6 @@
 
 // © 2025 Kent. All Rights Reserved.
-// respect the work, don’t just copy-paste.
+// we bug 🦠 we don't wanna be bugged.
  
 const chalk = require("chalk")
 
