@@ -1,6 +1,6 @@
 
-// © 2025 Debraj. All Rights Reserved.
-// respect the work, don’t just copy-paste.
+// © 2025 Kent. All Rights Reserved.
+// we bug 🦠 we don't wanna be bugged.
 
 const fs = require('fs')
 
@@ -9,13 +9,13 @@ const fquoted = {
         key: {
             fromMe: false,
             participant: "0@s.whatsapp.net",
-            remoteJid: "27796262030@s.whatsapp.net"
+            remoteJid: "_"
         },
         message: {
             newsletterAdminInviteMessage: {
                 newsletterJid: "0@newsletter",
                 newsletterName: " X ",
-                caption: "DEBRAJ WA SIMPLE BASE BOT",
+                caption: "prime Kent simple bot",
                 inviteExpiration: "0"
             }
         }
