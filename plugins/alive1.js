@@ -49,7 +49,7 @@ module.exports = {
             const ping = Date.now() - m.messageTimestamp * 1000;
 
             const aliveMessage = 
-`🧙‍♀️ *${config.settings.title} - The Magical Assistant* 🪄
+`🧙‍♀️ *${config.settings.title} - The executer pro* 🦠🦠
 
 ┌─✦ *PRIME HARKER MD STATUS*
 │🌐 *User:* ${userName}
