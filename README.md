@@ -36,7 +36,7 @@
 ---
 ### 📦 About Harker Kent md tech Bot
 
-**Trashcore** is a feature-rich **WhatsApp bot** powered by [Baileys](https://github.com/WhiskeySockets/Baileys).
+**HARKER MD** is a feature-rich **WhatsApp bot** powered by [Baileys](https://github.com/WhiskeySockets/Baileys).
 It includes **anti-features**, **auto responses**, **session or pairing-based login**, and easy redeployment support.  
 Perfect for developers and enthusiasts who want a **stable, powerful, and customizable bot**.
 
